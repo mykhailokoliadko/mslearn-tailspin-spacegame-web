@@ -8,7 +8,7 @@ trigger:
 
 pool: 
   name : space-game-selfhosted-agent
-  demands: npm
+
 
 variables:
   buildConfiguration: 'Release'
