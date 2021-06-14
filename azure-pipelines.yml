@@ -7,10 +7,10 @@ trigger:
 - main
 
 pool: space-game-selfhosted-agent
-
-task: DotNetCoreCLI@2
-  displayName: 'Build the project'
-  inputs:
-    command: 'build'
-    arguments: '--no-restore --configuration Release'
-    projects: '**/*.csproj'
+steps:
+  - task: DotNetCoreCLI@2
+    displayName: 'Build the project'
+    inputs:
+      command: 'build'
+      arguments: '--no-restore --configuration Release'
+      projects: '**/*.csproj'
