@@ -8,5 +8,5 @@ trigger:
 
 pool: space-game-selfhosted-agent
 
-bash: sudo apt install net-tools
+- bash: sudo apt install net-tools
 
