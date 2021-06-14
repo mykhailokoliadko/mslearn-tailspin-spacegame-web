@@ -6,7 +6,8 @@
 trigger:
 - '*'
 
-pool: space-game-selfhosted-agent
+pool: 
+  name : space-game-selfhosted-agent
   demands: npm
 
 variables:
