@@ -11,5 +11,5 @@ pool: space-game-selfhosted-agent
 steps:
 - task: Bash@3
   inputs:
-    targetType: 'filePath'
-    filePath: mykhailokoliadko/mslearn-tailspin-spacegame-web/uploadNetSdk.sh
+    targetType: 'inline'
+    script: ls -al && pwd
